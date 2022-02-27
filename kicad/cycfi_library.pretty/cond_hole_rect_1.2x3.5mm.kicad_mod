@@ -1,0 +1,20 @@
+(footprint "cond_hole_rect_1.2x3.5mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6219A744)
+  (descr "Mounting Hole rectangular 1.2x3.5mm")
+  (tags "mounting hole rectangular 1.2x3.5mm")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at -5.73 7.84) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9eae5e48-ed4a-4ad7-9372-141607b829fe)
+  )
+  (fp_text value "cond_hole_rect_1x3mm" (at 0.92 4.12) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2fe05468-a358-4532-91bb-d12596f61ee3)
+  )
+  (fp_text user "${REFERENCE}" (at -5.67 6.1) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 20443f75-8f59-4ecb-ad3b-9514abc5994d)
+  )
+  (pad "1" thru_hole oval (at 0 0) (size 2.1 4.4) (drill oval 1.2 3.5) (layers *.Cu *.Mask) (tstamp 8ff98190-861f-4da3-913a-88b2d91721e7))
+)

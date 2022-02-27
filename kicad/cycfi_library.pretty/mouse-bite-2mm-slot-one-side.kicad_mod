@@ -1,0 +1,17 @@
+(module mouse-bite-2mm-slot-one-side (layer F.Cu) (tedit 61220D10)
+  (fp_text reference mouse-bite-3mm-slot (at 0 -2.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_text value VAL** (at 0 3.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_line (start 2.5 -1) (end 2.5 1) (layer Dwgs.User) (width 0.12))
+  (fp_line (start 2.5 1) (end -2.5 1) (layer Dwgs.User) (width 0.12))
+  (fp_line (start -2.5 1) (end -2.5 -1) (layer Dwgs.User) (width 0.12))
+  (fp_line (start -2.5 -1) (end 2.5 -1) (layer Dwgs.User) (width 0.12))
+  (pad "" np_thru_hole circle (at 1 0.65) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -1 0.65) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 0.65) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -2 0.65) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 2 0.65) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+)
