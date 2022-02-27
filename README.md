@@ -1,2 +1,2 @@
 # common
-common submodule
+Common PCB libraries
