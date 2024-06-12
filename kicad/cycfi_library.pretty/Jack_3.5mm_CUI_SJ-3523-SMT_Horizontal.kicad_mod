@@ -58,9 +58,9 @@
   (pad "R" smd rect (at 3.7 -1.6) (size 2.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b6170539-80ec-41b0-aeb2-b2754045d67f))
   (pad "S" smd rect (at -3.7 -3.6) (size 2.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp daf6db40-1ba3-4d16-ad84-3a5c270fe3dc))
   (pad "T" smd rect (at -3.7 5.8) (size 2.8 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d36e3749-cdea-4206-9623-05f075f912eb))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal.wrl"
-    (offset (xyz 0 0 0))
+  (model "/Users/joel/dev/cycfi/pcb_private/pcb_common/step_files/SJ-3523-SMT.step"
+    (offset (xyz 0 2.5 -0.24))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 90))
   )
 )
