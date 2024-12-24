@@ -283,15 +283,15 @@
 		(remove_unused_layers no)
 		(uuid "014b1e45-ea9b-4a6b-80e6-7004dbfb3a23")
 	)
-	(model "PTV09A-4015F-A503.stp"
+	(model "${KIPRJMOD}/pcb_common/step_files/RV09.stp"
 		(offset
-			(xyz -2.5 -7 0)
+			(xyz 0 0 -1.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 180)
 		)
 	)
 )
