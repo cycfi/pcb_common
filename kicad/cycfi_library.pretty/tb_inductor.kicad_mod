@@ -135,4 +135,15 @@
 		(remove_unused_layers no)
 		(uuid "c855f222-384c-4015-b6bf-163fb402ca49")
 	)
+	(model "${KIPRJMOD}/pcb_common/step_files/inductor.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

@@ -153,4 +153,15 @@
 		(uuid "35cf0e12-980d-40f3-85a7-572dd5de190a")
 		(members "7578c509-138d-45eb-88fe-d69e54658fcb" "f6174b87-d70f-4a84-8a01-eb1c51def5a0")
 	)
+	(model "${KIPRJMOD}/pcb_common/step_files/PSB801.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
