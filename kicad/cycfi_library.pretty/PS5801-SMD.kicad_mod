@@ -1,0 +1,149 @@
+(footprint "PS5801-SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.25 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4c9fdea7-ba0c-45cc-8f66-240980c37d5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PS5801-SMD"
+		(at 0.25 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c58960d9-4cac-4036-ad2e-1aef26946dae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2.25 2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebd3527e-1a02-43db-bb8f-6c4e6e404a36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.25 2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f32c6423-98bd-48a9-8aef-e8c714469a00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.25 2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b7114e8-5532-4d09-8c93-5cc5c163d6e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 4.7 3.5)
+		(end 6.7 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6174b87-d70f-4a84-8a01-eb1c51def5a0")
+	)
+	(fp_line
+		(start 6.7 3.5)
+		(end 6.7 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7578c509-138d-45eb-88fe-d69e54658fcb")
+	)
+	(fp_rect
+		(start -6.7 -3.5)
+		(end 6.7 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "33e524a8-a719-4110-9ca5-64efcee25908")
+	)
+	(pad "1" smd rect
+		(at 4.625 2.5)
+		(size 3.75 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1527299a-08b3-47c3-929f-a75c83be365e")
+	)
+	(pad "2" smd rect
+		(at 4.625 0)
+		(size 3.75 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0cdc726c-ebab-497a-9a6f-b53c357171e4")
+	)
+	(pad "3" connect rect
+		(at 4.625 -2.5)
+		(size 3.75 1.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b6682bf9-731b-4648-8b6f-bc313d022c2f")
+	)
+	(pad "4" smd rect
+		(at -4.625 2.5)
+		(size 3.75 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "65e2b6c2-40fd-48e6-874e-055eae6bc08e")
+	)
+	(pad "5" smd rect
+		(at -4.625 0)
+		(size 3.75 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bf1bdcbf-3b63-4a0b-9878-6795b1a110d4")
+	)
+	(pad "6" smd rect
+		(at -4.625 -2.5)
+		(size 3.75 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f1ce9232-74d9-405b-8822-05d2b14c73e1")
+	)
+	(group ""
+		(uuid "35cf0e12-980d-40f3-85a7-572dd5de190a")
+		(members "7578c509-138d-45eb-88fe-d69e54658fcb" "f6174b87-d70f-4a84-8a01-eb1c51def5a0")
+	)
+	(model "${KIPRJMOD}/pcb_common/step_files/PSB801.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
