@@ -66,7 +66,7 @@
 			(justify mirror)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_line
 		(start -5 -6.2)
 		(end -5 -4.7)
@@ -78,8 +78,8 @@
 		(uuid "cfb62a56-0101-45af-b5dd-b248117324b1")
 	)
 	(fp_line
-		(start -4.7 3)
-		(end -4.7 0.9)
+		(start -5 3.5)
+		(end -5 0.7)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -88,18 +88,8 @@
 		(uuid "5666d97c-fd41-4267-910e-b67b9672b901")
 	)
 	(fp_line
-		(start -4.7 3.2)
-		(end -4.7 3)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "60fa9cc8-19a1-4b76-b122-a0776e4f8618")
-	)
-	(fp_line
-		(start -4.1 3.2)
-		(end -4.7 3.2)
+		(start -3.6 3.5)
+		(end -5 3.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -146,6 +136,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "cf9962ee-4a44-46ac-b14c-e01a993753fd")
+	)
+	(fp_rect
+		(start -6 -20)
+		(end 6 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ef0c73a2-772e-4d49-84f0-eab59d690711")
 	)
 	(pad "1" smd rect
 		(at -4 1.905)
