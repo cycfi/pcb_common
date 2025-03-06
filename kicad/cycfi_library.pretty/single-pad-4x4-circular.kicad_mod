@@ -1,14 +1,71 @@
-(footprint "single-pad-4x4-circular" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 621DDCE6)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 2.54) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 2b1ccc34-c439-431e-a579-6de321c72079)
-  )
-  (fp_text value "single-pad-4x4-circular" (at 0 -2.54) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 49155c9e-7231-4c58-a78b-200933cd83a4)
-  )
-  (pad "1" smd circle (at 0 0) (size 4 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 08ea73d9-b82c-41dc-bb2a-d12314dfd682))
+(footprint "single-pad-4x4-circular"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.54 0)
+		(layer "F.SilkS")
+		(uuid "2b1ccc34-c439-431e-a579-6de321c72079")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "single-pad-4x4-circular"
+		(at 0 -2.54 0)
+		(layer "F.Fab")
+		(uuid "49155c9e-7231-4c58-a78b-200933cd83a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1580e1e1-75ea-4996-8b6b-cac1dddd4870")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92d7c5bf-d193-4f73-ae78-354bf1c7b581")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7cc0d53-c48f-48f7-98d1-8775fc56480f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 4 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "08ea73d9-b82c-41dc-bb2a-d12314dfd682")
+	)
 )
