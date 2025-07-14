@@ -1,17 +1,149 @@
-(footprint "tb_inductor" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 611B6BE7)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 2.5) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 929c74c0-78bf-4efe-a778-fa328e951865)
-  )
-  (fp_text value "tb_inductor" (at 0 -2.5) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 53fda1fb-12bd-4536-80e1-aab5c0e3fc58)
-  )
-  (fp_circle (center 0 0) (end 3.5 4) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 22ab392d-1989-4185-9178-8083812ea067))
-  (fp_circle (center 0 0) (end 5.25 0) (layer "F.Fab") (width 0.12) (fill none) (tstamp 6fd21292-6577-40e1-bbda-18906b5e9f6f))
-  (pad "1" thru_hole circle (at -2.5 0) (size 2 2) (drill 0.8) (layers *.Cu *.Mask) (tstamp 0f62e92c-dce6-45dc-a560-b9db10f66ff3))
-  (pad "2" thru_hole circle (at 2.5 0) (size 2 2) (drill 0.8) (layers *.Cu *.Mask) (tstamp f030cfe8-f922-4a12-a58d-2ff6e60a9bb9))
+(footprint "tb_inductor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "L1"
+		(at 0.25 6 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3c83125d-13f6-4e0a-9b6a-418c5e4b4133")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "80mH"
+		(at 0 -5.75 180)
+		(layer "F.Fab")
+		(uuid "6243bf66-605e-4d5a-90d7-eda45d790bc6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" "cycfi_library:tb_inductor"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "f3518562-452d-4c06-beca-7625662f4f4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "004d3abb-b22b-4a08-96fc-59965786c900")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "62794f04-300c-4e38-8f70-d4c514ff4195")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end -5.25 -0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "19abe2ac-36d9-4c9a-b41e-6532ab6a0868")
+	)
+	(fp_line
+		(start 2.6 -1.2)
+		(end -2.599655 -1.195855)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "06df3cf4-0144-4819-b6bc-2601639a77db")
+	)
+	(fp_line
+		(start 2.6 1.2)
+		(end -2.5 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38c46f2f-8900-4e3e-9f5d-cfc2e860de4b")
+	)
+	(fp_arc
+		(start -2.5 1.2)
+		(mid -3.698963 0.049871)
+		(end -2.599655 -1.195855)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7f7ff75-4cc3-4ba7-9983-b0a2310c092a")
+	)
+	(fp_arc
+		(start 2.6 -1.2)
+		(mid 3.704159 0)
+		(end 2.6 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d55d56f-1d72-4fcc-a32e-9cefb3320948")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d82f885-93cb-4707-a275-32556fa0f016")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c855f222-384c-4015-b6bf-163fb402ca49")
+	)
+	(model "${KIPRJMOD}/pcb_common/step_files/inductor.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

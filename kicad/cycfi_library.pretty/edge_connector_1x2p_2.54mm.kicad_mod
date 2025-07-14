@@ -1,0 +1,98 @@
+(footprint "edge_connector_1x2p_2.54mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 6.25 0)
+		(layer "F.SilkS")
+		(uuid "18cf1537-83e6-4374-a277-6e3e21479ab0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "edge_connector_1x2p_2.54mm"
+		(at 8.636 -3.048 0)
+		(layer "F.Fab")
+		(uuid "a6c7f556-10bb-4a6d-b61b-a732ec6fa5cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "958ebb31-da51-4cef-bdf2-5d5b95409de1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "313ef49c-7dc0-4d0a-abf2-603a7858ebb3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -0.8)
+		(end 1.5 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16d5bf81-590a-4149-97e0-64f3b3ad6f52")
+	)
+	(fp_rect
+		(start -1.7 -1.25)
+		(end 1.7 3.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f446810d-3152-4d43-8000-7171cc0a6799")
+	)
+	(pad "1" connect rect
+		(at 0 0)
+		(size 3.2 1.02)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6aa022fb-09ce-49d9-86b1-c73b3ee817e2")
+	)
+	(pad "2" connect rect
+		(at 0 2.54)
+		(size 3.2 1.02)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2151a218-87ec-4d43-b5fa-736242c52602")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../pcb_common/step_files/1x3p_2.54mm_male_hdr.STEP"
+		(offset
+			(xyz 6.2 0 1.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -90)
+		)
+	)
+)
