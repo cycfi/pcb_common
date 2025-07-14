@@ -1,7 +1,7 @@
 (footprint "pin_header_1x3p_2.54mm_smd_horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.02 5.08 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ad1c25d4-5076-4c09-93d6-80c15d3d1f25")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -205,24 +193,25 @@
 	(pad "1" smd rect
 		(at 0 -2.54)
 		(size 3.2 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6aa022fb-09ce-49d9-86b1-c73b3ee817e2")
 	)
 	(pad "2" smd rect
 		(at 0 0)
 		(size 3.2 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2151a218-87ec-4d43-b5fa-736242c52602")
 	)
 	(pad "3" smd rect
 		(at 0 2.54)
 		(size 3.2 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a6dc1180-19c4-432b-af49-fc9179bb4519")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../pcb_common/step_files/1x3p_2.54mm_male_hdr.STEP"
 		(offset
-			(xyz 6.2 0 1.2)
+			(xyz 6.2 2.5 1.2)
 		)
 		(scale
 			(xyz 1 1 1)
