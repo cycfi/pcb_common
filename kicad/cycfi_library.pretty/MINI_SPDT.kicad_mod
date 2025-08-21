@@ -1,0 +1,87 @@
+(footprint "MINI_SPDT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "S1"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2b74b50f-49f9-4562-a7be-d80d12f3ab98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "MINI_SPDT"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0630d9a-c132-48a2-ae07-f07f0e917605")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8acb6389-5cd5-450b-9b39-e230bcbe2bb2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b64b635-8dcd-4c72-8eec-fccc7b9d833e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -4.7 0)
+		(size 3.216 3.216)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "b73c6f67-470e-4284-ab96-824e1f566dd8")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0)
+		(size 3.216 3.216)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "5bb75c16-b90d-46c9-b0ff-73e65e51a839")
+	)
+	(pad "3" thru_hole rect
+		(at 4.7 0)
+		(size 3.216 3.216)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "fc67c575-fd29-4dad-b334-217738e4a92c")
+	)
+	(embedded_fonts no)
+)
