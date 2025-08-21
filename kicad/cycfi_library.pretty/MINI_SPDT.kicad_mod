@@ -53,35 +53,49 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at -4.7 0)
-		(size 3.216 3.216)
-		(drill 2.2)
+		(size 3.5 3.5)
+		(drill 2.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.07692307692)
 		(solder_mask_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "b73c6f67-470e-4284-ab96-824e1f566dd8")
 	)
-	(pad "2" thru_hole rect
+	(pad "2" thru_hole roundrect
 		(at 0 0)
-		(size 3.216 3.216)
-		(drill 2.2)
+		(size 3.5 3.5)
+		(drill 2.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.07692307692)
 		(solder_mask_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "5bb75c16-b90d-46c9-b0ff-73e65e51a839")
 	)
-	(pad "3" thru_hole rect
+	(pad "3" thru_hole roundrect
 		(at 4.7 0)
-		(size 3.216 3.216)
-		(drill 2.2)
+		(size 3.5 3.5)
+		(drill 2.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.07692307692)
 		(solder_mask_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "fc67c575-fd29-4dad-b334-217738e4a92c")
 	)
 	(embedded_fonts no)
+	(model "${CYCFI_COMMON}/step_files/141_100SPxT1B1M1xE.stp"
+		(offset
+			(xyz 0 0 7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
