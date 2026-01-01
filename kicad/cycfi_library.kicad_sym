@@ -12495,7 +12495,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -0.635 -1.905 90)
+			(at 11.43 -1.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12504,7 +12504,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
-			(at 0 0 0)
+			(at 1.27 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12532,8 +12532,8 @@
 		)
 		(symbol "trs_jack_switched_0_1"
 			(rectangle
-				(start -9.525 1.27)
-				(end -8.255 -4.445)
+				(start -10.16 1.905)
+				(end -8.89 -4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -12543,8 +12543,8 @@
 				)
 			)
 			(rectangle
-				(start -8.255 2.54)
-				(end 8.255 -5.08)
+				(start -8.89 2.54)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -12555,7 +12555,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.985 0.635) (xy -6.35 0) (xy -5.715 0.635) (xy -3.81 0.635)
+					(xy -8.255 0.635) (xy -6.985 -0.635) (xy -5.715 0.635) (xy -3.81 0.635)
 				)
 				(stroke
 					(width 0)
@@ -12603,7 +12603,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.27 0) (xy -0.635 0.635) (xy 1.27 0.635)
+					(xy -3.175 0.635) (xy -1.905 -0.635) (xy -0.635 0.635) (xy 1.27 0.635)
 				)
 				(stroke
 					(width 0)
@@ -12663,7 +12663,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 0.635) (xy 3.81 0) (xy 4.445 0.635) (xy 6.35 0.635)
+					(xy 1.905 0.635) (xy 3.175 -0.635) (xy 4.445 0.635) (xy 6.35 0.635)
 				)
 				(stroke
 					(width 0)
@@ -12812,116 +12812,6 @@
 					)
 				)
 				(number "T"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-		(symbol "trs_jack_switched_2_1"
-			(pin passive line
-				(at -5.08 3.81 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "SN2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -1.27 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "RN2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -6.35 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "TN2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 2.54 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "S2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -2.54 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -7.62 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "T2"
 					(effects
 						(font
 							(size 1.016 1.016)
