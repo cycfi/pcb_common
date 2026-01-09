@@ -195,4 +195,15 @@
 		(uuid "34210484-3c68-4387-b46a-58da34659461")
 	)
 	(embedded_fonts no)
+	(model "${CYCFI_COMMON}/step_files/5P_DIN.STEP"
+		(offset
+			(xyz 0 -17.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
