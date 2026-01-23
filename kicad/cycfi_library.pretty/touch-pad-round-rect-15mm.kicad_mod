@@ -1,4 +1,4 @@
-(footprint "single-pad-1x2"
+(footprint "touch-pad-round-rect-15mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 2.54 0)
 		(layer "F.SilkS")
-		(uuid "e5fa2407-bf29-4bc1-94bf-b730c3df302d")
+		(uuid "2b1ccc34-c439-431e-a579-6de321c72079")
 		(effects
 			(font
 				(size 1 1)
@@ -14,10 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "single-pad-1x2"
+	(property "Value" "touch-pad-round-rect-15mm"
 		(at 0 -2.54 0)
 		(layer "F.Fab")
-		(uuid "88f23975-e445-4870-bb37-716eabcfca21")
+		(uuid "49155c9e-7231-4c58-a78b-200933cd83a4")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6a791966-0985-4e1c-b3a4-d35086c1d0f3")
+		(uuid "180e0b03-6c41-4aa7-bb6f-9866fb38b68a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "342b8e26-d37b-412e-b5b2-2c57c5e88d89")
+		(uuid "0126add4-deaf-4b2e-900d-fbf5b5fba488")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,11 +50,12 @@
 		)
 	)
 	(attr smd)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at 0 0)
-		(size 1 2)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5b1df2f6-8e50-4bab-9092-82f0e83b6a70")
+		(size 15 15)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1333333333)
+		(uuid "08ea73d9-b82c-41dc-bb2a-d12314dfd682")
 	)
 	(embedded_fonts no)
 )
