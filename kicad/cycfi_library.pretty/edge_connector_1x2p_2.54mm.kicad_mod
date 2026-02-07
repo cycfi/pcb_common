@@ -84,15 +84,4 @@
 		(uuid "2151a218-87ec-4d43-b5fa-736242c52602")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../pcb_common/step_files/1x3p_2.54mm_male_hdr.STEP"
-		(offset
-			(xyz 6.2 0 1.2)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 90 180 -90)
-		)
-	)
 )
