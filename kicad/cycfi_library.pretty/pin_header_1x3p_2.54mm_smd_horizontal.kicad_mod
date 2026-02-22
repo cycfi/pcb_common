@@ -209,7 +209,7 @@
 		(uuid "a6dc1180-19c4-432b-af49-fc9179bb4519")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../pcb_common/step_files/1x3p_2.54mm_male_hdr.STEP"
+	(model "${CYCFI_COMMON}/step_files/1x3p_2.54mm_male_hdr.STEP"
 		(offset
 			(xyz 6.2 2.5 1.2)
 		)
