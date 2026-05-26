@@ -343,4 +343,15 @@
 		(uuid "7b60eedf-046d-4964-b23f-6a89af855fe1")
 	)
 	(embedded_fonts no)
+	(model "${CYCFI_COMMON}/step_files/DLW43_MUR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

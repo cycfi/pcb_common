@@ -287,4 +287,15 @@
 		(uuid "7cbf96e3-42f5-4e27-ae33-b7206d99259d")
 	)
 	(embedded_fonts no)
+	(model "${CYCFI_COMMON}/step_files/2200980371.stp"
+		(offset
+			(xyz 2.5 -9 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
