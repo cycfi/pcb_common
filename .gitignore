@@ -1,1 +1,3 @@
 /kicad/cycfi_library.bak
+scripts/.env*
+scripts/cache/

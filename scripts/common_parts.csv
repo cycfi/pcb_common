@@ -1,0 +1,68 @@
+lcsc,value,footprint,package,source,notes
+C25867,1.5k,Resistor_SMD:R_0402_1005Metric,0402,gliss_sensor_board,reviewed-from-current-bom
+C25076,100,Resistor_SMD:R_0402_1005Metric,0402,gliss_sensor_board,reviewed-from-current-bom
+C249844,1000uF,Capacitor_SMD:CP_Elec_10x10,CAP-SMD-10x10,gliss_sensor_board,reviewed-from-current-bom
+C25741,100k,Resistor_SMD:R_0402_1005Metric,0402,gliss_sensor_board,reviewed-from-current-bom
+C106224,100kΩ,Resistor_SMD:R_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C76937,100nF,Capacitor_SMD:C_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C307331,100nF,Capacitor_SMD:C_0402_1005Metric,0402,controls_board;gliss_sensor_board;mcu_board,reviewed-from-current-bom
+C270366,100Ω,Resistor_SMD:R_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C249967,100uF,Capacitor_SMD:CP_Elec_6.3x5.7,CAP-SMD-6.3x5.7,gliss_sensor_board,reviewed-from-current-bom
+C881217,10k,Resistor_SMD:R_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C25744,10k,Resistor_SMD:R_0402_1005Metric,0402,gliss_sensor_board;mcu_board,reviewed-from-current-bom
+C76930,10nF,Capacitor_SMD:C_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C15525,10uF,Capacitor_SMD:C_0402_1005Metric,0402,controls_board;mcu_board,reviewed-from-current-bom
+C96446,10uF,Capacitor_SMD:C_0603_1608Metric,0603,controls_board;gliss_sensor_board;mcu_board,reviewed-from-current-bom
+C15850,10uF,Capacitor_SMD:C_0805_2012Metric,0805,mcu_board,reviewed-from-current-bom
+C50391,12pF,Capacitor_SMD:C_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C64554,15pF,Capacitor_SMD:C_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C13738,16MHz,cycfi_library:Crystal_SMD_3225-4Pin_3.2x2.5mm,SMD-3225,mcu_board,reviewed-from-current-bom
+C138165,1k,Resistor_SMD:R_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C11702,1k,Resistor_SMD:R_0402_1005Metric,0402,controls_board;mcu_board,reviewed-from-current-bom
+C26083,1M,Resistor_SMD:R_0402_1005Metric,0402,gliss_sensor_board,reviewed-from-current-bom
+C52923,1uF,Capacitor_SMD:C_0402_1005Metric,0402,controls_board;gliss_sensor_board;mcu_board,reviewed-from-current-bom
+C159814,2.2uF,Capacitor_SMD:C_0402_1005Metric,0402,mcu_board,reviewed-from-current-bom
+C473476,2.49k,Resistor_SMD:R_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C19803185,2200980371,cycfi_library:CONN_2200980000-SD_03_MOL,,mcu_board,reviewed-from-current-bom
+C49654383,220Ω,Resistor_SMD:R_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C70582,25MHz,cycfi_library:Crystal_SMD_3225-4Pin_3.2x2.5mm,SMD-3225,mcu_board,reviewed-from-current-bom
+C25771,27k,Resistor_SMD:R_0402_1005Metric,0402,gliss_sensor_board,reviewed-from-current-bom
+C46061661,2x12P,cycfi_library:pin_header_2x12p_2mm_smd_horizontal,PinHeader,controls_board,reviewed-from-current-bom
+C1615,330nF,Capacitor_SMD:C_0603_1608Metric,0603,gliss_sensor_board,reviewed-from-current-bom
+C25900,4.7k,Resistor_SMD:R_0402_1005Metric,0402,gliss_sensor_board,reviewed-from-current-bom
+C1538,4.7nF,Capacitor_SMD:C_0402_1005Metric,0402,mcu_board,reviewed-from-current-bom
+C23733,4.7uF,Capacitor_SMD:C_0402_1005Metric,0402,gliss_sensor_board,reviewed-from-current-bom
+C85926,470nF,Capacitor_SMD:C_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C1537,470pF,Capacitor_SMD:C_0402_1005Metric,0402,gliss_sensor_board,reviewed-from-current-bom
+C270344,5.1k,Resistor_SMD:R_0201_0603Metric,0201,mcu_board,reviewed-from-current-bom
+C25905,5.1k,Resistor_SMD:R_0402_1005Metric,0402,gliss_sensor_board,reviewed-from-current-bom
+C6186,AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,SOT-223,mcu_board,reviewed-from-current-bom
+C8598,B5819W SL,Diode_SMD:D_SOD-123,SOD-123,mcu_board,reviewed-from-current-bom
+C83935,BAT54S,Package_TO_SOT_SMD:SOT-23,SOT-23,gliss_sensor_board,reviewed-from-current-bom
+C710379,BLM18KG601SH1D,Inductor_SMD:L_0603_1608Metric,0603,mcu_board,reviewed-from-current-bom
+C51933294,Blue LED,LED_SMD:LED_0603_1608Metric,0603,controls_board;mcu_board,reviewed-from-current-bom
+C42455215,Conn_01x04,cycfi_library:pin_header_1x4p_2.00mm_smd_horizontal,PinHeader,controls_board,reviewed-from-current-bom
+C424647,DF40C-60DP-0.4V(51),cycfi_library:DF40C-60DP-0.4V51_R,,mcu_board,reviewed-from-current-bom
+C597938,DF40C-60DS-0.4V(51),cycfi_library:DF40C-60DS-0.4V51,,gliss_sensor_board,reviewed-from-current-bom
+C123086,DLW43MH201XK2L,Inductor_SMD:L_CommonModeChoke_Coilank_ACM4532,,mcu_board,reviewed-from-current-bom
+C44401845,DP83TC817SRHARQ1,Package_DFN_QFN:Texas_RHH0036C_VQFN-36-1EP_6x6mm_P0.5mm_EP4.4x4.4mm_ThermalVias,QFN,mcu_board,reviewed-from-current-bom
+C82044,ESD5Zxx,Diode_SMD:D_SOD-523,SOD-523,mcu_board,reviewed-from-current-bom
+C22371297,Green LED,LED_SMD:LED_0603_1608Metric,0603,mcu_board,reviewed-from-current-bom
+C1015,GZ2012D101TF,Inductor_SMD:L_0805_2012Metric,0805,mcu_board,reviewed-from-current-bom
+C21706,L7805,Package_TO_SOT_SMD:TO-252-2,TO-252-2,gliss_sensor_board,reviewed-from-current-bom
+C472525,L78L08ABUTR,Package_TO_SOT_SMD:SOT-89-3,SOT-89-3,gliss_sensor_board,reviewed-from-current-bom
+C37970,MIC5205-3.3YM5-TR,Package_TO_SOT_SMD:SOT-23-5,SOT-23-5,gliss_sensor_board,reviewed-from-current-bom
+C2286,Red LED,LED_SMD:LED_0603_1608Metric,0603,controls_board;mcu_board,reviewed-from-current-bom
+C720477,Reset,cycfi_library:TS-1088,,controls_board,reviewed-from-current-bom
+C14996,SS210,cycfi_library:DO-214AC,,gliss_sensor_board,reviewed-from-current-bom
+C8542,SS8550 Y2,Package_TO_SOT_SMD:SOT-23,SOT-23,gliss_sensor_board,reviewed-from-current-bom
+C5456225,STM32C031F6Px,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,TSSOP-20,controls_board,reviewed-from-current-bom
+C730146,STM32H723ZG,Package_QFP:LQFP-144_20x20mm_P0.5mm,LQFP-144,mcu_board,reviewed-from-current-bom
+C431540,SW_SPDT,Button_Switch_SMD:SW_SPDT_PCM12,,mcu_board,reviewed-from-current-bom
+C2689642,Tact Switch,cycfi_library:PTS636SK25SMTRLFS,,mcu_board,reviewed-from-current-bom
+C414615,TI TLV6002IDGKR,Package_SO:VSSOP-8_3x3mm_P0.65mm,VSSOP-8,gliss_sensor_board,reviewed-from-current-bom
+C128406,TL974IPWR,cycfi_library:TSSOP-14_4.4x5mm_P0.65mm,TSSOP-14,gliss_sensor_board,reviewed-from-current-bom
+C165948,USB_C_Receptacle_USB2.0_16P,cycfi_library:USB_C_Receptacle_USB2.0_16P,,mcu_board,reviewed-from-current-bom
+C7519,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,SOT-23-6,mcu_board,reviewed-from-current-bom
+C5446,XC6206P332MR-G,Package_TO_SOT_SMD:SOT-23-3,SOT-23-3,controls_board,reviewed-from-current-bom
+C965802,YELLOW LED,LED_SMD:LED_0603_1608Metric,0603,mcu_board,reviewed-from-current-bom
