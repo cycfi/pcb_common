@@ -57,6 +57,17 @@
 		(end 22.5 4)
 		(stroke
 			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7392ac2c-28af-40e6-9053-0d93c5936b1c")
+	)
+	(fp_rect
+		(start -22.5 -4)
+		(end 22.5 4)
+		(stroke
+			(width 0.12)
 			(type solid)
 		)
 		(fill no)
@@ -88,4 +99,15 @@
 		(uuid "7caac587-ae83-4b03-8146-8b75f2968ab9")
 	)
 	(embedded_fonts no)
+	(model "${CYCFI_COMMON}/step_files/RS301111A01G.stp"
+		(offset
+			(xyz -5.75 -2.25 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
