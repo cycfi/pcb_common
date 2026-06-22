@@ -38,3 +38,8 @@
   BDRV out_drv vee V=limit(V(state,vee),0,V(vcc,vee))
   ROUT out_drv out {ROUT}
 .ends cycfi_schmitt_trigger
+
+* 2N7002 small-signal NMOS (jellybean). Generic VDMOS fit:
+* Vgs(th) ~2.1 V typ, Rds(on) a few ohms. Used as the non-critical
+* startup-reset switch (Q1); only the ~2.1 V threshold matters there.
+.model 2N7002 VDMOS(NCHAN VTO=2.1 KP=0.5 LAMBDA=0.01 RD=2 RS=0.5 RG=3)
