@@ -67,3 +67,17 @@
   ROUT od out 1k
   Cld out gnd 1n
 .ends cycfi_schmitt_nor
+
+* 2:1 multiplexer with Schmitt-trigger inputs (models a 74x1G97-class
+* configurable gate). Pins MATCH cycfi_adg779_spdt (in vdd gnd s1 d s2) so the
+* ADG779 symbol can be reused as-is — just repoint Sim.Name. Logic:
+*   d = in ? s2 : s1   (in=0 -> d=s1, in=1 -> d=s2), inputs sensed at the Schmitt
+* threshold, output a clean logic level. e-Whammy one-gate latch recovery uses
+* in=WINDOW, s1=CTN (timeout envelope), s2=GND -> d=RESET = !WINDOW * CTN
+* (active-low). The timeout cap's power-on discharge supplies the startup force,
+* so the separate startup R-C is dropped. See latch_recovery_design.md.
+.subckt cycfi_schmitt_mux in vdd gnd s1 d s2 params: VTH=0.5 VH=0.18 SHARP=0.06
+  Bout od gnd V=V(vdd,gnd)*0.5*(1+tanh(((0.5*(1+tanh((V(in,gnd)-{VTH}*V(vdd,gnd))/(0.04*V(vdd,gnd)))))*(0.5*(1+tanh((V(s2,gnd)-{VTH}*V(vdd,gnd))/(0.04*V(vdd,gnd)))))+(1-0.5*(1+tanh((V(in,gnd)-{VTH}*V(vdd,gnd))/(0.04*V(vdd,gnd)))))*(0.5*(1+tanh((V(s1,gnd)-{VTH}*V(vdd,gnd))/(0.04*V(vdd,gnd)))))-0.5+{VH}*(V(d,gnd)/V(vdd,gnd)-0.5))/{SHARP}))
+  ROUT od d 1k
+  Cld d gnd 1n
+.ends cycfi_schmitt_mux
