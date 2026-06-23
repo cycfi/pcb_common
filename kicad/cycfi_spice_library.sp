@@ -44,7 +44,7 @@
 * startup-reset switch (Q1); only the ~2.1 V threshold matters there.
 .model 2N7002 VDMOS(NCHAN VTO=2.1 KP=0.5 LAMBDA=0.01 RD=2 RS=0.5 RG=3)
 
-* 2-input Schmitt NAND (one gate of a 74x132). Pins: a b vcc gnd out.
+* 2-input Schmitt NAND. Pins: a b vcc gnd out.
 * OUT is low only when both A and B are high. Hysteresis via output feedback.
 * Converges for normal-play / readable-scale runs; for a long real-scale run that
 * includes the recovery FIRING transient, model the gates with XSPICE digital
@@ -55,3 +55,15 @@
   ROUT od out 1k
   Cld out gnd 1n
 .ends cycfi_schmitt_nand
+
+* 2-input Schmitt NOR. Pins: a b vcc gnd out.
+* OUT is high only when both A and B are low. Same behavioral form as the NAND
+* with the AND core (ga*gb) replaced by the OR core (1-(1-ga)*(1-gb)); hysteresis
+* via output feedback. Same convergence caveat as the NAND (use XSPICE digital for
+* a long run that includes a switching transient). Generic — the real part is a
+* schematic/BOM detail (e.g. a 74x1G97 strapped as a NOR).
+.subckt cycfi_schmitt_nor a b vcc gnd out params: VTH=0.5 VH=0.18 SHARP=0.06
+  Bout od gnd V=V(vcc,gnd)*0.5*(1-tanh(((1-(1-0.5*(1+tanh((V(a,gnd)-{VTH}*V(vcc,gnd))/(0.04*V(vcc,gnd)))))*(1-0.5*(1+tanh((V(b,gnd)-{VTH}*V(vcc,gnd))/(0.04*V(vcc,gnd))))))-0.5-{VH}*(V(out,gnd)/V(vcc,gnd)-0.5))/{SHARP}))
+  ROUT od out 1k
+  Cld out gnd 1n
+.ends cycfi_schmitt_nor
