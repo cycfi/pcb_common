@@ -43,3 +43,15 @@
 * Vgs(th) ~2.1 V typ, Rds(on) a few ohms. Used as the non-critical
 * startup-reset switch (Q1); only the ~2.1 V threshold matters there.
 .model 2N7002 VDMOS(NCHAN VTO=2.1 KP=0.5 LAMBDA=0.01 RD=2 RS=0.5 RG=3)
+
+* 2-input Schmitt NAND (one gate of a 74x132). Pins: a b vcc gnd out.
+* OUT is low only when both A and B are high. Hysteresis via output feedback.
+* Converges for normal-play / readable-scale runs; for a long real-scale run that
+* includes the recovery FIRING transient, model the gates with XSPICE digital
+* primitives instead (analog gates diverge at the switching event) — see the
+* e-Whammy latch_recovery_design.md / simulation_howto.md in cycfi_ai_dev.
+.subckt cycfi_schmitt_nand a b vcc gnd out params: VTH=0.5 VH=0.18 SHARP=0.06
+  Bout od gnd V=V(vcc,gnd)*0.5*(1-tanh(((0.5*(1+tanh((V(a,gnd)-{VTH}*V(vcc,gnd))/(0.04*V(vcc,gnd)))))*(0.5*(1+tanh((V(b,gnd)-{VTH}*V(vcc,gnd))/(0.04*V(vcc,gnd)))))-0.5-{VH}*(V(out,gnd)/V(vcc,gnd)-0.5))/{SHARP}))
+  ROUT od out 1k
+  Cld out gnd 1n
+.ends cycfi_schmitt_nand
